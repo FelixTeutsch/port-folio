@@ -1,0 +1,55 @@
+body {
+  background-color: #CCCCCC;
+  font-size: 16px;
+  font-family: Arial, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#social-image {
+  border: 1px solid black;
+}
+
+h1 {
+  color: #7F4D11;
+  font-size: 2em;
+}
+
+h2 {
+  color: #7F4D11;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+ul {
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+main {
+  width: 700px;
+}
+section {
+  width: 55%;
+  float: left;
+}
+aside {
+  width: 40%;
+  float: right;
+}
+
+footer {
+  clear: both;
+  font-style: italic;
+  text-align: center;
+  background-color: gray;
+}
