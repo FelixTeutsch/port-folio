@@ -11,6 +11,21 @@
     --color_light: #D8EFF0;
     --color_dark: #0F3244;
     --color_default: #0B617E;
+
+    /*Final Colors*/
+
+    --color_dark_main: #054973;
+    --color_dark_shade_1: #346d8e;
+    --color_dark_shade_2: #6690aa;
+    --color_dark_shade_3: #9ab6c7;
+    --color_dark_shade_4: #ccdae2;
+    --color_light_main: #89b9d9;
+    --color_light_shade_1: #a0c7e0;
+    --color_light_shade_2: #b8d5e6;
+    --color_light_shade_3: #cfe2ef;
+    --color_light_shade_4: #e7f0f5;
+    --color_contrast: #40141F;
+    /*CHANGE TO NEW COLOR*/
     /*Times*/
     --time_short: 150ms;
     --time_normal: 250ms;
@@ -21,19 +36,26 @@
     display: block;
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--color_white);
+    font-family: 'Quicksand', sans-serif;
+    z-index: 0;
 }
+
 
 head,
 title {
     display: none
 }
 
+body {
+    background: linear-gradient(to bottom, var(--color_light_main) 0%, var(--color_dark_main)100%);
+    min-height: 100vh;
+}
+
 .spacer {
     height: 100vh;
     width: 100%;
-    background-color: azure;
+    background-color: transparent;
 }
 
 .start {

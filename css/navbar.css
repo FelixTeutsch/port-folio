@@ -1,35 +1,16 @@
-* {
-    padding: 0;
-    margin: 0;
-    display: block;
-    --color_dark_main: #054973;
-    --color_dark_shade_1: #346d8e;
-    --color_dark_shade_2: #6690aa;
-    --color_dark_shade_3: #9ab6c7;
-    --color_dark_shade_4: #ccdae2;
-    --color_light_main: #89b9d9;
-    --color_light_shade_1: #a0c7e0;
-    --color_light_shade_2: #b8d5e6;
-    --color_light_shade_3: #cfe2ef;
-    --color_light_shade_4: #e7f0f5;
-}
-
-head,
-title {
-    display: none
-}
-
 .nav_bar {
-    position: sticky;
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
     width: 100vw;
     background-color: var(--color_light_shade_3);
     display: flex;
     align-content: center;
     justify-content: space-between;
-    height: 59px;
+    height: 62px;
     max-width: 100%;
+    font-weight: bold;
+    z-index: 1000;
 }
 
 .nav_bar_list {
@@ -65,7 +46,6 @@ title {
 .nav_bar_item:focus .submenu {
     visibility: visible;
     height: auto;
-    transition: all 0ms;
 }
 
 .nav_bar_item:focus-within .submenu {
@@ -78,19 +58,29 @@ title {
     display: block;
 }
 
-@media(max-width: 1020px) {
+@media (max-width: 850px) {
     .nav_bar_list {
         flex-direction: column;
     }
+
     .nav_bar_item {
         text-align: center;
     }
+
     .nav_bar_link {
         width: 100vw;
-    }
-    .submenu .nav_bar_item .nav_bar_link {
         font-size: 1rem;
     }
+
+    .submenu .nav_bar_item .nav_bar_link {
+        font-size: 0.7rem;
+        background-color: var(--color_light_shade_4);
+    }
+    
+    .submenu .nav_bar_item .nav_bar_link:hover {
+        background-color: var(--color_dark_main);
+    }
+
     .nav_bar {
         display: flex;
         flex-direction: column;
@@ -100,14 +90,15 @@ title {
         max-width: 100%;
         overflow: hidden;
     }
+
     .nav_bar_logo {
-        width: 50vw;
+        width: 20vw;
         height: auto;
     }
 }
 
 .nav_bar_logo_link {
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .nav_bar_logo {
@@ -117,17 +108,19 @@ title {
 .turtle_back,
 .turtle_shell {
     fill: var(--color_dark_main);
+    transform-origin: 50% 50%;
 }
 
 .nav_bar_logo_link:hover .turtle_back,
 .nav_bar_logo_link:hover .turtle_shell {
-    fill: var(--color_light_main);
+    /*fill: var(--color_light_main);*/
+    transform: rotate(15deg) scale(0.95);
 }
 
-.nav_bar_logo_link:hover {
+/*.nav_bar_logo_link:hover {
     background-color: var(--color_dark_main);
 }
-
+*/
 
 /*
 .nav_bar_logo .turtle_back {
