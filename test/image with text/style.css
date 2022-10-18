@@ -1,0 +1,16 @@
+.background {
+    box-sizing: border-box;
+    background-color: pink;
+    background-image: url('img/background.png');
+    width: 20rem;
+    height: 20rem;
+    background-size: 20rem auto;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    box-shadow: 5px 5px 5px black;
+    border: black solid 3px;
+}
