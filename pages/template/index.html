@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felix Teutsch | Template</title>
+    <!--DEFAULT IMPORTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../../images/logo/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/burger.css">
+
+    <!--SPECIFIC IMPORTS-->
 </head>
+
 <body>
     <header>
-        <div class="number">
-            <!--INSERT IMAGE-->
-            <a href="tel:+39 388 780 8927">+39 388 780 8927</a>
-        </div>
-        <div class="email">
-            <!--INSERT IMAGE-->
-            <a href="mailto:felix@teutsch.it">Mail</a>
+        <div class="header_elements">
+            <div class="number">
+                <a href="tel:+39 388 780 8927">
+                    <img src="../../images/icons/icon_phone.svg" alt="Icon Phone Number">
+                    +39 388 780 8927
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:felix@teutsch.it">
+                    <img src="../../images/icons/icon_mail.svg" alt="Icon Mail">
+                    Mail
+                </a>
+            </div>
         </div>
     </header>
     <nav class="nav_bar">
@@ -36,15 +56,16 @@
         <script src="../../javascript/burger.js"></script>
         <ul class="nav_bar_list">
             <li class="nav_bar_item"><a class="nav_bar_link" href="../landing/">Landing page</a></li>
-            <li class="nav_bar_item" aria-current="page"><a class="nav_bar_link"
-                    href="../../test/bubbles/bubbles.html">About Myself</a></li>
-            <li class="nav_bar_item"><a class="nav_bar_link" href="../cv/">Curriculum Vitalis</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link"
+                    href="../about/">About Myself</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../cv/">Curriculum Vitae</a></li>
             <li class="nav_bar_item"><a class="nav_bar_link" href="../blog/">Blog</a></li>
             <li class="nav_bar_item">
                 <a class="nav_bar_link" href="../projects/">Personal Projects</a>
                 <ul class="submenu">
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/werwolf/">Werwolf</a></li>
-                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/seminarorganiser/">Seminar</a></li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/seminarorganiser/">Seminar</a>
+                    </li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/dobot/">Dobot</a></li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/flappybird/">Flappy Bird</a></li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/">All Projects</a></li>
@@ -52,6 +73,14 @@
             </li>
         </ul>
     </nav>
-    
+
+    <main>
+
+    </main>
+
+    <footer class="footer">
+        <a href="../impressum/">Imprint</a>|<a href="../contact/">Contact</a>
+    </footer>
 </body>
+
 </html>

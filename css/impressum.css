@@ -1,0 +1,73 @@
+.impressum {
+    margin: 1rem;
+}
+
+.impressum_title {
+    margin: 1rem 0;
+}
+
+.impressum_title p {
+    font-style: italic;
+}
+
+.impressum_contact {
+    margin: 1rem 0;
+}
+
+.contact_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_elements>* {
+    margin: 1rem;
+}
+
+.icon_phone, .icon_mail, .icon_github {
+    height: 4rem;
+}
+
+.icon_border {
+    fill: var(--color_dark_main);
+}
+
+.contact_elements a:hover .icon_border {
+    fill: var(--color_light_main);
+}
+
+.icon_content {
+    fill: transparent;
+    stroke: var(--color_dark_main);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 8px;
+}
+
+.contact_elements a:hover .icon_content {
+    stroke: var(--color_light_main);
+}
+
+.language {
+    max-width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.language h1 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.language a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.language h1:hover {
+    color: var(--color_dark_main);
+    background-color: var(--color_light_main);
+}

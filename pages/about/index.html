@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Teutsch | Template</title>
+    <!--DEFAULT IMPORTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../../images/logo/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/burger.css">
+
+    <!--SPECIFIC IMPORTS-->
+    <link rel="stylesheet" href="../../css/about.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_elements">
+            <div class="number">
+                <a href="tel:+39 388 780 8927">
+                    <img src="../../images/icons/icon_phone.svg" alt="Icon Phone Number">
+                    +39 388 780 8927
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:felix@teutsch.it">
+                    <img src="../../images/icons/icon_mail.svg" alt="Icon Mail">
+                    Mail
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav class="nav_bar">
+        <a class="nav_bar_logo_link" href="../landing/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.29 182.29" class="nav_bar_logo">
+                <g id="turtle" data-name="Layer 1">
+                    <path class="turtle_shell"
+                        d="M120.46,173.47l-4.64-17.33a69.54,69.54,0,0,0,40.33-40.33l17.32,4.64a7,7,0,0,0,3.63-13.53l-17.36-4.65a69.6,69.6,0,0,0-8.53-46.12,19.29,19.29,0,0,0,6.47-31.55,19.3,19.3,0,0,0-27.28,0,19,19,0,0,0-4.26,6.47A69.61,69.61,0,0,0,80,22.55L75.36,5.18A7,7,0,0,0,61.84,8.81l4.64,17.33A69.52,69.52,0,0,0,26.15,66.48L8.82,61.83A7,7,0,0,0,5.19,75.36L22.55,80a69.51,69.51,0,0,0,14.73,55.11l-5.62,5.61a7,7,0,1,0,9.9,9.9L47.18,145a69.52,69.52,0,0,0,55.1,14.73l4.65,17.36a7.09,7.09,0,0,0,1.8,3.13,7,7,0,0,0,11.73-6.76Zm-8.29-30.93a55.85,55.85,0,0,1-55-7.5,55.61,55.61,0,0,1-9.9-9.89,55.52,55.52,0,0,1-11.09-41.5A55.34,55.34,0,0,1,83.66,36.16a55.51,55.51,0,0,1,28.51,106.38Z" />
+                    <path class="turtle_back"
+                        d="M105.6,118A30.61,30.61,0,0,0,118,105.59l24.52,6.57a55,55,0,0,0,3.59-13.54l-24.5-6.57a30.68,30.68,0,0,0-4.55-17l18-18a56.11,56.11,0,0,0-9.9-9.9l-18,18a30.61,30.61,0,0,0-17-4.54l-6.57-24.5a54.66,54.66,0,0,0-13.54,3.6l6.58,24.5A30.76,30.76,0,0,0,64.26,76.69l-24.5-6.57a54.81,54.81,0,0,0-3.61,13.53l24.51,6.57a30.49,30.49,0,0,0,4.54,17l-18,18a55.61,55.61,0,0,0,9.9,9.89l18-17.95a30.69,30.69,0,0,0,17,4.54l6.56,24.5a55.28,55.28,0,0,0,13.54-3.59ZM79.46,102.82a16.57,16.57,0,0,1-4.27-15.95s0,0,0,0a16.51,16.51,0,1,1,20.22,20.24h0A16.57,16.57,0,0,1,79.46,102.82Z" />
+                </g>
+            </svg>
+        </a>
+
+        <div class="nav_bar_toggle">
+            <div class="nav_bar_toggle_burger"></div>
+        </div>
+
+        <script src="../../javascript/burger.js"></script>
+        <ul class="nav_bar_list">
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../landing/">Landing page</a></li>
+            <li class="nav_bar_item"><a aria-current="page" class="nav_bar_link"
+                    href="../about/">About Myself</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../cv/">Curriculum Vitae</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../blog/">Blog</a></li>
+            <li class="nav_bar_item">
+                <a class="nav_bar_link" href="../projects/">Personal Projects</a>
+                <ul class="submenu">
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/werwolf/">Werwolf</a></li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/seminarorganiser/">Seminar</a>
+                    </li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/dobot/">Dobot</a></li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/flappybird/">Flappy Bird</a></li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/">All Projects</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="section">
+            <div class="text">
+                <h1 class="headline">About Myself</h1>
+                <p>
+                    Hello, my name is Felix Teutsch, I'm 21 years old and come from Italy. I started coding in year 8.
+                    In
+                    the
+                    past years, I have acquired some knowledge in a variety of different coding languages.
+                </p>
+            </div>
+            <img src="../../images/about/big_color_fish.jpg" alt="dolphine looking in the camera">
+        </div>
+
+        <div class="section">
+            <div class="text">
+                <h2>HTML / CSS / JS</h2>
+                <p>My coding journey starts with an old time classic, the basic web development kit.
+                    This passion was sparked in me by my half brother, who gifted me my first Raspberry Pi with a fully
+                    operational web server.
+                    The following years I created smaller websites, with different objectives:
+                </p>
+                <ul>
+                    <li>Shops, to explore the world of product-based websites</li>
+                    <li>Wiki's, to explore the world of knowledge base websites</li>
+                    <li>Presentations, to see if a well-created website could be an alternative to a PowerPoint</li>
+                </ul>
+                <p>In the beginning, my websites were halfway between functional and broken CSS but most of the time it
+                    all worked out. Alongside HTML and CSS, I often created small features in CSS and implemented them
+                    as to my best abilities. Without prior coding knowledge, this often turned out to be much harder
+                    then I had hoped.
+                </p>
+            </div>
+            <img src="../../images/about/mess_with_the_turt_and_you_get_hurt.jpg" alt="turtle swimming under the ocean">
+        </div>
+        <div class="section background_image">
+            <!--Fixed Background-->
+        </div>
+        <div class="section">
+            <div class="text">
+                <h2>Java</h2>
+                <p>
+                    Java will always hold a special place in my heart. A powerful, semi-modern programming language that
+                    gives people the ability to code Minecraft plugins. As you might have guessed, that's how I started
+                    to code in Java. I developed plugins for my Minecraft server. What started with simple item
+                    manipulation, quickly evolved into a full-blown Inventory menu, navigable by clicking on different
+                    items. This was when I first saw the power of programming. My little knowledge of Java gave me the
+                    ability to bring my craziest thoughts to life.
+                </p>
+                <p>
+                    My self-learned java knowledge proved very usefully. Not only when learning C# in school, but also
+                    when beginning to code in Java during my first two years of university.
+                </p>
+            </div>
+            <img src="../../images/about/big_laugh_fish.jpg" alt="some fish swiming into a stone">
+        </div>
+        <div class="section">
+            <div class="text">
+                <h2>C#</h2>
+                <p>
+                    This was the first coding language I learned in school. What started as simple console applications
+                    quickly evolved into complex form applications. Around this time, I also started designing and
+                    incorporated my newly found passion for visuals into my ability to code. This resulted in programs
+                    with great features and creative designs.
+                </p>
+            </div>
+            <img src="../../images/about/not_so_deep_sea_fish_army.jpg" alt="some fish swiming into a stone">
+        </div>
+        <div class="section">
+            <div class="text">
+                <h2>PHP & SQL</h2>
+                <p>
+                    Let's get one thing clear. SQL is pronounced S.Q.L. and not sequel! Having that
+                    clear, we can dive into my experience with Databases and their integration via PHP. I learned this
+                    during my final year of high school. An example of something I created at the time can be found
+                    here:
+                    <a href="../projects/seminarorganiser/">Seminarorganiser</a>
+                </p>
+            </div>
+            <img src="../../images/about/squishi_jelly_thing.jpg" alt="some fish swiming into a stone">
+        </div>
+        <div class="section">
+            <div class="text">
+                <h2>Python, Matlab, Assembly, Node.js</h2>
+                <p>
+                    These last languages are all self self-learned. I used them to realise some smaller personal but
+                    also some big university projects:
+                </p>
+                <table>
+                    <tr>
+                        <th>Language</th>
+                        <th>Project</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td><a href="https://github.com/Godototot/Telegram-Werwolf-Bot">Werwolf Assistant Tool</a></td>
+                    </tr>
+                    <tr>
+                        <td>Assembly</td>
+                        <td>Test for efficient and simple code</td>
+                    </tr>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>Life multi-user Messaging system & Drawing Game</td>
+                    </tr>
+                    <tr>
+                        <td>Matlab</td>
+                        <td>
+                            <a href="https://github.com/codeAllien/Brailliant">Image recognition brail translator</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <img src="../../images/about/baby_shark.jpg" alt="some fish swiming into a stone">
+        </div>
+        <div class="section background_image">
+            <!--Fixed Background-->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="../impressum/">Imprint</a>|<a href="../contact/">Contact</a>
+    </footer>
+</body>
+
+</html>

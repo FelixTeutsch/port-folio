@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Port Folio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix Teutsch | Port Folio</title>
+
+
+
+    <!--DEFAULT IMPORTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/logo/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/burger.css">
+
+
+    <!--SPECIFIC IMPORTS-->
+    <link rel="stylesheet" href="css/bubbles.css">
+
 </head>
 
-<body onload="window.location.href = '/pages/landing/'">
-    <h1>Rerouting you to the main page...</h1>
+<body onload="timer_start(300)">
+    <div class="wrapper" id="bubble_wrapper">
+        <div class="content">
+            <h1>Welcome</h1>
+            <p>
+                You will be forwarded to the webpage very shortly. Please take these five minutes, to calm yourself, as
+                you will now enter a place of peace and positivity.
+            </p>
+            <p>
+                Pop a bubble, to skip the timer!
+            </p>
+            <div class="timer" id="timer">
+                05:00
+                <script src="javascript/timer.js"></script>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/bubbles.js"></script>
+    <div class="space"></div>
+
+
 </body>
 
 </html>

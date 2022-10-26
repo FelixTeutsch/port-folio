@@ -1,0 +1,81 @@
+.background_image {
+    background-image: url('../images/about/flat_earth_fish.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.background_image:last-child {
+    background-image: url('../images/about/daddy_shark.jpg');
+}
+
+main>* {
+    padding: 1rem;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.section:last-child {
+    background-color: var(--color_black);
+}
+
+.section>* {
+    margin: 1rem;
+}
+
+.section>img {
+    width: 45%;
+    height: auto;
+    border-radius: 1rem;
+    clip-path: inset(10% 10% round 20px);
+    transition: all ease-in-out var(--time_long);
+}
+
+.section:hover>img {
+    transform: scale(1.1);
+}
+
+.text>p {
+    flex-grow: 1;
+    margin: 1rem 0;
+}
+
+.text>ul>li {
+    margin: 1rem 2rem;
+
+}
+
+table {
+    display: table;
+}
+
+table tr, table tr>* {
+    border: solid 1px var(--color_light_shade_3);
+}
+
+table tr {
+    display: table-row;
+}
+
+table th, table td {
+    display: table-cell;
+}
+
+table td {
+    padding: 1rem;
+}

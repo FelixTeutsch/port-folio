@@ -1,0 +1,4 @@
+ErrorDocument 401 /iwt/pages/error/
+ErrorDocument 402 /iwt/pages/error/
+ErrorDocument 403 /iwt/pages/error/
+ErrorDocument 404 /iwt/pages/error/

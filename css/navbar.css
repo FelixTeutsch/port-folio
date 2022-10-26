@@ -69,13 +69,16 @@
     display: block;
 }
 
+
 @media (max-width: 1000px) {
     .nav_bar_list {
         flex-direction: column;
         visibility: hidden;
+        display: none;
         background-color: var(--color_light_shade_3);
         justify-content: flex-start;
     }
+
     .nav_bar {
         position: fixed !important;
         background-color: transparent;
@@ -121,6 +124,10 @@
 .nav_bar_logo_link {
     padding: 0.3rem;
 }
+.nav_bar_logo_link {
+    width: 52px;
+    height: auto;
+}
 
 .nav_bar_logo {
     height: 100%;
@@ -136,6 +143,17 @@
 .nav_bar_logo_link:hover .turtle_shell {
     /*fill: var(--color_light_main);*/
     transform: rotate(15deg) scale(0.95);
+}
+
+.nav_bar_link[aria-current],
+.nav_bar_link[aria-current]:focus,
+.nav_bar_link[aria-current]:active {
+    text-decoration: underline;
+}
+
+.nav_bar_link[aria-current]:hover {
+    border-radius: 52px;
+
 }
 
 /*.nav_bar_logo_link:hover {

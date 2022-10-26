@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="../../images/logo/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../images/logo/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/navbar.css">
@@ -24,13 +24,19 @@
 
 <body>
     <header>
-        <div class="number">
-            <!--INSERT IMAGE-->
-            <a href="tel:+39 388 780 8927">+39 388 780 8927</a>
-        </div>
-        <div class="email">
-            <!--INSERT IMAGE-->
-            <a href="mailto:felix@teutsch.it">Mail</a>
+        <div class="header_elements">
+            <div class="number">
+                <a href="tel:+39 388 780 8927">
+                    <img src="../../images/icons/icon_phone.svg" alt="Icon Phone Number">
+                    +39 388 780 8927
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:felix@teutsch.it">
+                    <img src="../../images/icons/icon_mail.svg" alt="Icon Mail">
+                    felix@teutsch.it
+                </a>
+            </div>
         </div>
     </header>
     <nav class="nav_bar">
@@ -52,15 +58,15 @@
         <script src="../../javascript/burger.js"></script>
         <ul class="nav_bar_list">
             <li class="nav_bar_item"><a class="nav_bar_link" href="../landing/">Landing page</a></li>
-            <li class="nav_bar_item" aria-current="page"><a class="nav_bar_link"
-                    href="../../test/bubbles/bubbles.html">About Myself</a></li>
-            <li class="nav_bar_item"><a class="nav_bar_link" href="../cv/">Curriculum Vitalis</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../about/">About Myself</a></li>
+            <li class="nav_bar_item"><a class="nav_bar_link" href="../cv/">Curriculum Vitae</a></li>
             <li class="nav_bar_item"><a class="nav_bar_link" href="../blog/">Blog</a></li>
             <li class="nav_bar_item">
-                <a class="nav_bar_link" href="../projects/">Personal Projects</a>
+                <a class="nav_bar_link" aria-current="page" href="../projects/">Personal Projects</a>
                 <ul class="submenu">
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/werwolf/">Werwolf</a></li>
-                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/seminarorganiser/">Seminar</a></li>
+                    <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/seminarorganiser/">Seminar</a>
+                    </li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/dobot/">Dobot</a></li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/flappybird/">Flappy Bird</a></li>
                     <li class="nav_bar_item"><a class="nav_bar_link" href="../projects/">All Projects</a></li>
@@ -81,7 +87,8 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="https://github.com/Godototot/Telegram-Werwolf-Bot">Read
+                            more...</a>
                     </div>
                     <div class="project_list_languages">PHP, JS, HTML, CSS</div>
                 </div>
@@ -95,7 +102,7 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="/dobot/">Read more...</a>
                     </div>
                     <div class="project_list_languages">Python</div>
                 </div>
@@ -110,7 +117,7 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="seminarmanager/">Read more...</a>
                     </div>
                     <div class="project_list_languages">PHP, JS, HTML, CSS</div>
                 </div>
@@ -124,7 +131,7 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="autoclicker/">Read more...</a>
                     </div>
                     <div class="project_list_languages">C#</div>
                 </div>
@@ -138,7 +145,7 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="clickcounter/">Read more...</a>
                     </div>
                     <div class="project_list_languages">C#</div>
                 </div>
@@ -152,13 +159,42 @@
                 </p>
                 <div class="project_item_bottom_row">
                     <div class="read_more">
-                        <a class="project_list_link" href="#link_to_project">Read more...</a>
+                        <a class="project_list_link" href="flappybird/">Read more...</a>
                     </div>
                     <div class="project_list_languages">Unity</div>
                 </div>
             </div>
+            <div class="project_list_item">
+                <img class="project_img shadow" src="../../images/projects/brailliant.jpg">
+                <h1>Brailliant</h1>
+                <p>
+                    For this project, a group and I coded a visual interpreter and translator of braille texts
+                </p>
+                <div class="project_item_bottom_row">
+                    <div class="read_more">
+                        <a class="project_list_link" href="https://github.com/codeAllien/Brailliant">Read more...</a>
+                    </div>
+                    <div class="project_list_languages">Matlab</div>
+                </div>
+            </div>
+            <div class="project_list_item">
+                <img class="project_img shadow" src="../../images/projects/drawwii.png">
+                <h1>DrawWii</h1>
+                <p>
+                    This project was based on the popular game called Skribble.io. It is hosted by a Node.js server.
+                </p>
+                <div class="project_item_bottom_row">
+                    <div class="read_more">
+                        <a class="project_list_link" href="drawwii/">Read more...</a>
+                    </div>
+                    <div class="project_list_languages">HTML, CSS, JS</div>
+                </div>
+            </div>
         </div>
     </main>
+    <footer class="footer">
+        <a href="../impressum/">Imprint</a>|<a href="../contact/">Contact</a>
+    </footer>
 </body>
 
 </html>

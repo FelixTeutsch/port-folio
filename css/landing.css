@@ -1,0 +1,132 @@
+.landing {
+    background: url('../images/landing/landing_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multiple_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.welcome_background {
+    background-image: url('../images/landing/flower_2.jpg');
+}
+
+.hover_image_one:hover {
+    background-image: url('../images/landing/hover_effect_one/hover.jpg');
+}
+
+.hover_image_one, .welcome_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50vh;
+}
+
+.hover_image_one {
+    justify-content: flex-end;
+}
+
+.hover_image_one .welcome_text {
+    margin-left: 0rem;
+    margin-right: 5rem;
+}
+
+.welcome_text {
+    width: 500px;
+    padding: 1rem;
+    margin-left: 5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    cursor: default;
+}
+
+.welcome_background:hover .welcome_text, .hover_image_one:hover .welcome_text {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.welcome_text>* {
+    margin: 1rem;
+}
+
+.source {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.source a {
+    margin-left: 1rem;
+}
+
+
+.hover_image_one {
+    background-image: url('../images/landing/hover_effect_one/no_hover.jpg');
+}
+
+.hover_image_two img {
+    height: 372px;
+    width: auto;
+    border-radius: 1rem;
+}
+
+.hover_image_two:hover img {
+    content: url('../images/landing/hover_effect_two/hover.jpg');
+}
+
+.section {
+    background: url('../images/landing/fire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section_text {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.section_text, .section_text a {
+    width: 500px;
+    height: 340px;
+}
+
+.section_text a {
+    text-decoration: none;
+}
+
+@media (max-width:660px) {
+    .welcome_background {
+        justify-content: center;
+    }
+
+    .welcome_text {
+        margin: 0;
+    }
+}
+
+@media (max-width:800px) {
+
+    .section {
+        flex-direction: column-reverse;
+    }
+}
