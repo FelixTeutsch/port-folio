@@ -21,6 +21,7 @@
     animation: bubble_animation 4s linear infinite;
 }
 
+/*Style content*/
 .content {
     top: 50%;
     left: 50%;
@@ -59,6 +60,8 @@
     font-family: monospace;
 }
 
+/*Style dot in bubble*/
+
 .bubble .dot {
     height: 10px;
     width: 10px;
@@ -68,6 +71,8 @@
     top: 20%;
     right: 20%;
 }
+
+/*Animates the bubbles to the top*/
 
 @keyframes bubble_animation {
     0% {

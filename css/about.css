@@ -1,3 +1,4 @@
+/*Fixed Background image, that doesn't move when scrolling*/
 .background_image {
     background-image: url('../images/about/flat_earth_fish.jpg');
     background-attachment: fixed;
@@ -15,6 +16,8 @@ main>* {
     padding: 1rem;
 }
 
+
+/*Style the section alternatively with only one class*/
 .section {
     display: flex;
     align-items: center;

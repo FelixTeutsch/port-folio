@@ -1,3 +1,5 @@
+/*Burger Style*/
+
 .nav_bar_toggle {
     display: none;
     position: fixed;
@@ -19,6 +21,8 @@
     border-bottom: solid 2px var(--color_dark_main);
 }
 
+
+/*Three lines transparent border for animation*/
 .nav_bar_toggle:hover .nav_bar_toggle_burger,
 .nav_bar_toggle:hover .nav_bar_toggle_burger::before,
 .nav_bar_toggle:hover .nav_bar_toggle_burger::after {
@@ -30,6 +34,7 @@
     background-color: var(--color_dark_main);
 }
 
+/*three lines*/
 .nav_bar_toggle_burger,
 .nav_bar_toggle_burger::before,
 .nav_bar_toggle_burger::after {

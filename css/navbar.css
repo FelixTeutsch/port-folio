@@ -1,3 +1,4 @@
+/*Make navbar sticky*/
 .nav_bar {
     position: -webkit-sticky;
     position: sticky;
@@ -69,7 +70,7 @@
     display: block;
 }
 
-
+/*Change the layout of the navbar if the screen is smaller than 1k px*/
 @media (max-width: 1000px) {
     .nav_bar_list {
         flex-direction: column;
@@ -124,6 +125,7 @@
 .nav_bar_logo_link {
     padding: 0.3rem;
 }
+
 .nav_bar_logo_link {
     width: 52px;
     height: auto;
@@ -138,6 +140,8 @@
     fill: var(--color_dark_main);
     transform-origin: 50% 50%;
 }
+
+/*Turtle animation*/
 
 .nav_bar_logo_link:hover .turtle_back,
 .nav_bar_logo_link:hover .turtle_shell {
@@ -155,25 +159,3 @@
     border-radius: 52px;
 
 }
-
-/*.nav_bar_logo_link:hover {
-    background-color: var(--color_dark_main);
-}
-*/
-
-/*
-.nav_bar_logo .turtle_back {
-fill: #89b9d9;
-}
-
-.nav_bar_logo:hover .turtle_back {
-    fill: #054973;
-}
-
-.nav_bar_logo .turtle_shell {
-fill: #054973;
-}
-
-.nav_bar_logo:hover .turtle_shell {
-    fill: #89b9d9;
-}*/

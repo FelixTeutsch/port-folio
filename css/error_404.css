@@ -40,6 +40,8 @@ main a:hover {
     animation: none !important;
 }
 
+/*404*/
+
 @keyframes pulsing {
 
     30% {
@@ -68,7 +70,7 @@ main a:hover {
     }
 }
 
-
+/*Return to start page*/
 @keyframes wiggle {
     50% {
         transform: rotate(0deg);
@@ -92,6 +94,8 @@ main a:hover {
 
 }
 
+
+/*Page not found jet*/
 @keyframes pulse_flip {
     0% {
         transform: rotateZ(0deg) scale(1);

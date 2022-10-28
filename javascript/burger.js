@@ -1,3 +1,4 @@
+// Add toggle to navbar & burger animation
 const menuBtn = document.querySelector('.nav_bar_toggle');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
